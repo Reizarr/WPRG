@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+    <h1>Travel reseration form</h1>
+    <h3>* denotes mandatory</h3>
+    <form action="" method="GET">
+        <label for="fullname">Full name*:</label><br>
+        <input type="text" placeholder="FirstName LastName" id="fullname" name="fullname"><br>
+        <label for="emailaddres">Email adress*:</label><br>
+        <input type="text" id="emailaddres" name="emailaddres"><br>
+        <label for="tourpackage">Select Tour Package*:</label><br>
+        <select name="tourpackage" id="tourpackage">
+            <option>Goa</option>
+            <option>Maq</option>
+            <option>Opt</option>
+        </select><br>
+        <label for="arrivaldate">Arrival date*:</label><br>
+        <input type="text" placeholder="mm/dd/yy" name="arrivaldate" id="arrivaldate"><br>
+        <label for="numberofpersons">Number of persons*:</label><br>
+        <input type="number" name="numberofpersons" id="numberofpersons"><br>
+        <label for="whattoavail">What would you want to avail?*</label><br>
+        <label>Boarding: <input type="checkbox" name="avails" value="Boarding"></label><br>
+        <label>Fooding: <input type="checkbox" name="avails" value="Fooding"></label><br>
+        <label>Sight seeing: <input type="checkbox" name="avails" value="Sight Seeing"></label><br>
+        <label for="discount">Discount Coupon code:</label><br>
+        <input type="text" name="discount" id="discount"><br>
+        <label for="terms">Terms and conditions*</label><br>
+        <label>I agree <input type="radio" name="terms" value="I agree" checked></label>
+        <label>I disagree <input type="radio" name="terms" value="I disagree"></label><br>
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>

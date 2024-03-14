@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+    <form action="" method="GET">
+        <label for="title"><strong>Title *</strong></label><br>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="date"><strong>Date</strong></label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="date">Date-only description</label><br>
+        <fieldset>
+            <legend><strong>DATE/TIME</strong></legend>
+            <input type="date" name="date"> <input type="time"><br>
+            <label>Date and time description</label>
+        </fieldset>
+        <fieldset>
+            <legend><strong>DATE RANGE</strong></legend>
+            <fieldset>
+                <legend><strong>START DATE</strong></legend>
+                <input type="date" name="date"> <input type="time"><br>
+            </fieldset>
+            <fieldset>
+                <legend><strong>END DATE</strong></legend>
+                <input type="date" name="date"> <input type="time"><br>
+            </fieldset>
+            <label>Date range description</label>
+        </fieldset>
+        <fieldset>
+            <legend><strong>DATE/TIME LIST</strong></legend>
+            <select name="Year" id="exacttime">
+                <option>Year</option>
+                <option>Kapibara</option>
+            </select>
+            <select name="Month" id="exacttime">
+                <option>Year</option>
+                <option>Kapibara</option>
+            </select>
+            <select name="Day" id="exacttime">
+                <option>Year</option>
+                <option>Kapibara</option>
+            </select>
+            <select name="Hour" id="exacttime">
+                <option>Year</option>
+                <option>Kapibara</option>
+            </select>
+            <select name="Minute" id="exacttime">
+                <option>Year</option>
+                <option>Kapibara</option>
+            </select>
+            Date / time list description
+        </fieldset>
+    </form>
+</body>
+</html>
