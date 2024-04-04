@@ -1,0 +1,36 @@
+h2 {
+    background-color: rgba(255,255,255,.5);
+    color: #c60;
+}
+a.visited {
+    color: #937393;
+}
+
+h1 {
+    color: #993399;
+    background-image: url("https://th.bing.com/th/id/R.87c21222875469046d481534e8a92f3f?rik=sbgZ9u1%2fX55hAA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fCarrot-PNG.png&ehk=%2bEuiso4HoaU%2fqPl1rBEaFpoPZjHwro5%2feDr5qjehddQ%3d&risl=&pid=ImgRaw&r=0");
+    display: inline-block;
+    margin:0 25px;
+    padding:0 10px;
+    height:40px;
+}
+
+body {
+    background-color: #d2dc9d;
+    background-size: cover;
+    /* background-image: url(https://yt3.googleusercontent.com/jXHAIvetqsk1uWQgrbxaMmFUYr5ttBRoEV606Ymj69wCtzWujxti6750Kkzt5sEmbbKgWBXDKQ=s900-c-k-c0x00ffffff-no-rj); */
+}
+
+a {
+    color: #993399;
+}
+
+a:hover, a:active {
+    color: #c700f2;
+    background-color: #fff;
+}
+
+a:target {
+    background-color: white;
+    color: #ff00ff;
+}
