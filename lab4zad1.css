@@ -1,0 +1,25 @@
+.box1 {
+    background-color: darkgray;
+    padding: 15px;
+    outline: 1px black solid;
+    width: 50vh;
+    position: absolute;
+}
+
+.box2 {
+    background-color: darkgray;
+    padding: 10px;
+    outline: 5px white solid;
+}
+
+.box3 {
+    background-color: white;
+    padding: 5px;
+    outline: 1px black solid;
+}
+
+.textbox {
+    background-color: darkgray;
+    padding: 5px;
+    outline: 1px black solid;
+}

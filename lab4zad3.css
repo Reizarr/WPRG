@@ -1,0 +1,79 @@
+h1 {
+    letter-spacing: 20px;
+    text-align: center;
+}
+body {
+    background-color: aliceblue;
+}
+
+.title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background-color: lemonchiffon;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.box1 {
+    background-color: azure;
+    box-shadow: 5px 5px 5px gray;
+    margin: 100px;
+    padding: 30px;
+}
+
+legend {
+    letter-spacing: 5px;
+    font-size: 24px;
+    color:darkcyan;
+}
+
+#savebutton {
+    float: right;
+    background-color: mediumaquamarine;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#biginput {
+    width: 250px;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.options {
+    left: 10vw;
+    text-align:right;
+    max-width:30em;
+    font-weight: bold;
+}
+
+.box2 {
+    background-color: azure;
+    box-shadow: 5px 5px 5px gray;
+    margin: 100px;
+    padding: 30px;
+}
+
+thead {
+    background-color:darkcyan;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table #firstColForIDs {
+    text-align: center;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+tbody tr:nth-child(even) {
+    background-color:aquamarine;
+}
