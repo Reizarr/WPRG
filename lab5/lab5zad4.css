@@ -1,0 +1,23 @@
+#layout {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    color: white;
+    margin: 5px;
+    text-shadow: 1px 1px 4px black;
+    font-size: 20px;
+}
+
+#layout>div {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+#layout>div:nth-child(odd) {
+    background-color:blanchedalmond;
+}
+
+#layout>div:nth-child(even) {
+    background-color: burlywood;
+}

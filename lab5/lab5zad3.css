@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(244, 254, 255);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    list-style: none;
+    padding: .5em;
+    margin: 0;
+    justify-content: space-around;
+    box-shadow: 1px 1px 20px black;
+}
+
+li {
+    margin-right: auto;
+    font-size: 20px;
+}
+
+li.maintop {
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: start;
+}
+
+.top {
+    height: 400px;
+    background-image: url("https://getwallpapers.com/wallpaper/full/6/5/6/719756-beautiful-background-images-1920x1200-for-tablet.jpg");
+    background-size: cover;
+    display:flex;
+    width: 100%;
+    color: white;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+    inset: 0;
+    position: absolute;
+}
+
+.toptop {
+    height: 40px; 
+}
+
+h2, h3 {
+    text-shadow: 1px 1px 2px black;
+}
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0px;
+    text-align: center;
+    margin-top: -5%;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 450px 20% 0 20%;
+}
+
+.box {
+    background-color:darkcyan;
+    min-width: 25%;
+    height: 250px;
+    padding: 10px;
+    margin: 20px ;
+    box-sizing: border-box;
+    flex: 1 1 0;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: relative;
+    text-align: right;
+}
+
+
+.text {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: left;
+}
+
+h4, h5 {
+    padding-left: 5px;
+}
+
+h4 {
+    font-weight: 800;   
+}
+
+h5 {
+    font-weight: 500;
+}
