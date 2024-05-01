@@ -1,0 +1,31 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+.middlebox {
+    margin: auto;
+    border: 1px solid black;
+    text-align: left;
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    line-height: 25px;
+    background-color: #696980;
+}
+
+.output {
+    margin: auto;
+    text-align: center;
+}
+input, select {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: crimson;
+}

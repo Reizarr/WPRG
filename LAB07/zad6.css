@@ -1,0 +1,31 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+.main {
+    margin: auto;
+    border: 1px solid black;
+    text-align: left;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    line-height: 25px;
+    background-color: #161616;
+    border: 5px solid lightblue;
+}
+input {
+    width: 77.6%;
+}
+
+.output {
+    margin: auto;
+    text-align: center;
+}
+#submit {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, lightblue, blue);
+}

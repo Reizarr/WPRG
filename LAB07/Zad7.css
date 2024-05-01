@@ -1,0 +1,44 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+ul.categorychecklist {
+    list-style:none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.main {
+    margin: auto;
+    border: 1px solid black;
+    text-align: left;
+    width: 300px;
+    height: 330px;
+    padding: 20px;
+    line-height: 25px;
+    background-color: #161616;
+}
+
+.output {
+    margin: auto;
+    text-align: center;
+}
+#longinput {
+    width: 91.5%;
+    padding: 10px;
+    margin-top: 10px;
+}
+#longselect {
+    width: 99%;
+    padding: 10px;
+    margin-top: 10px;
+}
+#submit {
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}

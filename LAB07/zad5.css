@@ -1,0 +1,28 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+.main {
+    margin: auto;
+    border: 1px solid black;
+    text-align: left;
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    line-height: 25px;
+    background-color: #161616;
+    border: 5px solid lightblue;
+}
+
+.output {
+    margin: auto;
+    text-align: center;
+}
+#submit {
+    width: 150px;
+    margin: 10px;
+}
