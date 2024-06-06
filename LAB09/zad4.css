@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(56,68,84);
+    color: white;
+    text-align: center;
+}
+.box {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #d8dcdc;
+    color: #3f5064;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#bigtext {
+    width: 15%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#bigsubmit {
+    margin: 10px;
+    width: 16%;
+    height: 40px;
+    background-color: #389cdc;
+    color: white;
+    border-radius: 5px;
+}
+
+#output {
+    line-height: 30px;
+}
+button {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #389cdc;
+    color: white;
+    border-radius: 5px;
+}
+.opinion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deleteButton a {
+    color: white;
+    text-decoration: none;
+}

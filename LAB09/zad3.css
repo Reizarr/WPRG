@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(161,164,182,0.75);
+    color: black;
+    text-align: center;
+}
+.box {
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px;
+    text-align: left;
+    padding: 10px;
+}
+
+#biginput {
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#bigselect {
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#bigsubmit {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+#output {
+    line-height: 30px;
+}

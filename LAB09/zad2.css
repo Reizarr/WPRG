@@ -1,0 +1,24 @@
+body {
+    background-color: rgba(195,213,214,0.64);
+    color: black;
+    text-align: center;
+}
+.box {
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px;
+    padding-top: 20px;
+}
+
+#bigsubmit {
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
