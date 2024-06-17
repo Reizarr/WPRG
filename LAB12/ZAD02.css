@@ -1,0 +1,22 @@
+#box {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    color: #3f5064;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+#submitDrop {
+    margin: 10px;
+    width: 30%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
